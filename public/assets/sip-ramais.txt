@@ -1,0 +1,38 @@
+
+[3213](template)
+username=3213
+secret=6d0m67
+nat=no
+callerid="1321321" <3213>
+
+[200](template)
+username=200
+secret=3q1a71
+nat=no
+callerid="André" <200>
+
+[203](template)
+username=203
+secret=g4737y
+nat=no
+callerid="Eduardo" <203>
+
+[204](template)
+username=204
+secret=9r44o6
+nat=no
+callerid="Vitor" <204>
+
+[202](template)
+username=202
+secret=@202
+nat=no
+callerid="202" <202>
+pickupgroup=10
+callgroup=10,20
+
+[1231](template)
+username=1231
+secret=282s2y
+nat=no
+callerid="12321" <1231>

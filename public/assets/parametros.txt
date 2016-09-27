@@ -1,0 +1,12 @@
+Quando for = TRONCO->SIP->PABX ----> sip-troncos.conf
+Quando for = TRONCO->SIP->PABX ----> iax-troncos.conf
+Quando for = TRONCO->SIP&IAX->PABX ----> iax-troncos.conf e sip-troncos.conf
+Quando for = USER->SIP->PABX ----> sip-ramais.conf
+Quando for = USER->IAX->PABX ----> iax-ramais.conf
+Quando for = USER->SIP&IAX->PABX ----> sip-ramais.conf e iax-ramais.conf
+Quando for = USER->SIP->PORTEIRO ----> sip-ramais.conf
+
+
+Quando aplicação for PORTEIRO amarrar a TECNOLOGIA SIP.
+Quando o ramal for APLICAÇÃO = URA, DISA, FAX OU DAC, não precisar aparecer o perfil e nem 
+guardar em arquivo.

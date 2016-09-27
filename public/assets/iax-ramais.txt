@@ -1,0 +1,6 @@
+
+[3213](template)
+username=3213
+secret=6d0m67
+nat=no
+callerid="1321321" <3213>

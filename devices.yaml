@@ -1,0 +1,54 @@
+# Khomp configuration file
+# Please note that indentation denotes scope but TABs are not permitted
+# All fields are case sensitive
+
+---
+"Devices":
+  -
+    "28757":
+      Type: EBS-GSM_160
+      IP: 172.16.0.41
+      CustomTonesProfile: Profile1
+      "Replacer":
+      Version: V1
+      "ChannelGroups":
+        -
+          "0-15":
+            Type: GSM
+            Profile: GSM
+  -
+    "49211":
+      Type: EBS-GSM_160
+      IP: 172.16.0.42
+      CustomTonesProfile: Profile1
+      "Replacer":
+      Version: V1
+      "ChannelGroups":
+        -
+          "0-15":
+            Type: GSM
+            Profile: GSM
+  -
+    "28631":
+      Type: EBS-FXS_240
+      IP: 172.16.0.43
+      CustomTonesProfile: Profile1
+      "Replacer":
+      Version: V1
+      "ChannelGroups":
+        -
+          "0-23":
+            Type: FXS
+            Profile: FXS
+  -
+    "39204":
+      Type: EBS-FXO_120
+      IP: 172.16.0.40
+      CustomTonesProfile: Profile1
+      "Replacer":
+      Version: V1
+      "ChannelGroups":
+        -
+          "0-11":
+            Type: FXO
+            Profile: FXO
